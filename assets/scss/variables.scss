@@ -1,0 +1,223 @@
+// Colors
+
+$color-white: #ffffff;
+
+$color-yellow-00: #ededec;
+$color-yellow-10: #fbe5bf;
+$color-yellow-20: #f9d190;
+$color-yellow-30: #f6bd60;
+$color-yellow-40: #c5974d;
+$color-yellow-50: #94713a;
+
+$color-blush-00: #fdf4f3;
+$color-blush-10: #fbeae7;
+$color-blush-20: #f8dad5;
+$color-blush-30: #f5cac3;
+$color-blush-40: #ddb6b0;
+$color-blush-50: #c4a29c;
+$color-blush-60: #ac8d89;
+$color-blush-70: #937975;
+$color-blush-80: #7b6562;
+
+$color-teal-00: #dae4e2;
+$color-teal-10: #c2d2ce;
+$color-teal-20: #a9c0ba;
+$color-teal-30: #84a59d;
+$color-teal-40: #6a847e;
+$color-teal-50: #5c736e;
+
+$color-gray-00: #ededec;
+$color-gray-10: #dbdada;
+$color-gray-20: #b7b5b4;
+$color-gray-30: #807e7c;
+$color-gray-40: #6e6c69;
+$color-gray-50: #4a4744;
+$color-gray-60: #343230;
+$color-gray-70: #252422;
+$color-gray-80: #0f0e0e;
+
+$color-cream-00: #fdfbf9;
+$color-cream-10: #fbf6f1;
+$color-cream-20: #f7ede2;
+$color-cream-30: #ded5cb;
+$color-cream-40: #c6beb5;
+$color-cream-50: #ada69e;
+$color-cream-60: #948e88;
+$color-cream-70: #635f5a;
+$color-cream-80: #45433f;
+$color-cream-90: #31302d;
+
+$color-rose-00: #fce6e6;
+$color-rose-10: #f9c2c1;
+$color-rose-20: #f6a9a8;
+$color-rose-30: #f28482;
+$color-rose-40: #c26a68;
+$color-rose-50: #914f4e;
+
+$color-green-00: #dce7d6;
+$color-green-10: #b9ceac;
+$color-green-20: #8aae75;
+$color-green-30: #6e8b5e;
+$color-green-40: #37462f;
+$color-green-50: #536846;
+
+$color-blue-00: #f3fcfd;
+$color-blue-10: #e1f7fa;
+$color-blue-20: #c3eef5;
+$color-blue-30: #b0d6dd;
+$color-blue-40: #9cbec4;
+$color-blue-50: #8cabb0;
+$color-blue-60: #7d989d;
+
+$color-purple-00: #e4dadd;
+$color-purple-10: #c9b5ba;
+$color-purple-20: #a5848c;
+$color-purple-30: #846a70;
+$color-purple-40: #634f54;
+
+:root {
+    --bg-primary: #{$color-cream-00};
+    --bg-secondary: #eee9e3; // #eae5dd;
+    --header-primary: #{$color-teal-30};
+    // --header-primary: #{$color-green-20};
+    --header-secondary: #{$color-blush-50};
+    --text-primary: #{$color-cream-70};
+    --text-secondary: #121629;
+    --text-subtle: #{$color-cream-50};
+    --btn-primary: #{$color-blush-50};
+    --btn-secondary: #77948d;
+    --btn-text-primary: #ffffff;
+    --link-primary: #{$color-cream-60};
+    --link-secondary: #232946;
+    --neutral-primary: #fefcff;
+    --neutral-secondary: #ebeaeb;
+    --card-bg-primary: #ffffff;
+    --card-bg-secondary: #{$color-cream-10};
+    --card-border-primary: #{$color-green-10};
+    --card-border-secondary: #{$color-blush-10};
+    --bg-overlay: rgba(253, 251, 249, 0.7);
+    --dialog-bg: #{$color-gray-00};
+    --dialog-bg-overlay: rgba(15, 14, 14, 0.9);
+    --dialog-close: #{$color-white};
+    --text-navigation: #{$color-cream-70};
+    --progress-bg: #{$color-gray-00};
+    --progress-bar-bg-default: #{$color-teal-30};
+    --progress-bar-bg-success: #{$color-green-30};
+    --progress-bar-bg-info: #{$color-blue-40};
+    --progress-bar-bg-warning: #{$color-yellow-40};
+    --progress-bar-bg-error: #{$color-rose-40};
+    --progress-bar-text: #{$color-cream-00};
+    --highlight-text: #{$color-blush-20};
+    --tag-bg-primary: #{$color-blush-60};
+    --tag-bg-secondary: #{$color-teal-40};
+    --tag-bg-tertiary: #{$color-green-30};
+    --tag-text: #{$color-cream-00};
+    --tag-close-hover: rgba(255, 255, 255, 0.2);
+    --input-bg: #{$color-white};
+    --input-text: #{$color-gray-50};
+    --input-border: #{$color-cream-60};
+    --input-border-focus: #{$color-blue-40};
+    --input-bg-disabled: rgba(173, 166, 158, 0.2);
+    --input-placeholder: #{$color-gray-20};
+    --radio-bg-checked: #{$color-blush-50};
+    --radio-inset: #{$color-cream-00};
+
+    // Primevue tailwind colors
+    --primary-50: 236 253 245;
+    --primary-100: 209 250 229;
+    --primary-200: 167 243 208;
+    --primary-300: 110 231 183;
+    --primary-400: 52 211 153;
+    --primary-500: 16 185 129;
+    --primary-600: 5 150 105;
+    --primary-700: 4 120 87;
+    --primary-800: 6 95 70;
+    --primary-900: 4 78 56;
+    --primary-950: 2 44 34;
+    --surface-0: 255 255 255;
+    --surface-50: 248 250 252;
+    --surface-100: 241 245 249;
+    --surface-200: 226 232 240;
+    --surface-300: 203 213 225;
+    --surface-400: 148 163 184;
+    --surface-500: 100 116 139;
+    --surface-600: 71 85 105;
+    --surface-700: 45 55 72;
+    --surface-800: 30 41 59;
+    --surface-900: 15 23 42;
+    --surface-950: 3 6 23;
+}
+
+.dark-mode {
+    --bg-primary: #{$color-gray-60};
+    --bg-secondary: #56534f;
+    // --bg-secondary: #56534f; // #{$color-cream-70}
+    --header-primary: #{$color-green-10};
+    --header-secondary: #{$color-blush-40};
+    --text-primary: #{$color-cream-10};
+    --text-secondary: #b8c1ec;
+    --text-subtle: #{$color-cream-20};
+    --btn-primary: #f8dad5;
+    --btn-secondary: #b9ceac;
+    --btn-text-primary: #{$color-gray-50};
+    --link-primary: #fffffe;
+    --link-secondary: #fffffe;
+    --neutral-primary: #545455;
+    --neutral-secondary: #1c1c1c;
+    --card-bg-primary: #{$color-cream-80};
+    --card-bg-secondary: #{$color-cream-10};
+    --card-border-primary: #{$color-green-10};
+    --card-border-secondary: #{$color-blush-10};
+    --bg-overlay: rgba(52, 50, 48, 0.7);
+    --dialog-bg-overlay: #{$color-white};
+    --dialog-bg: #{$color-gray-70};
+    --dialog-close: #{$color-gray-60};
+    --text-navigation: #{$color-cream-10};
+    --progress-bg: #{$color-gray-50};
+    --progress-bar-bg-default: #{$color-teal-30};
+    --progress-bar-bg-success: #{$color-green-10};
+    --progress-bar-bg-info: #{$color-blue-20};
+    --progress-bar-bg-warning: #{$color-yellow-10};
+    --progress-bar-bg-error: #{$color-blush-20};
+    --progress-bar-text: #{$color-cream-90};
+    --highlight-text: #{$color-teal-50};
+    --tag-bg-primary: #{$color-blush-20};
+    --tag-bg-secondary: #{$color-teal-20};
+    --tag-bg-tertiary: #{$color-green-10};
+    --tag-text: #{$color-cream-80};
+    --tag-close-hover: rgba(0, 0, 0, 0.05);
+    --input-bg: #{$color-gray-50};
+    --input-text: #{$color-cream-00};
+    --input-border: #{$color-cream-10};
+    --input-border-focus: #{$color-blue-20};
+    // --input-bg-disabled: #{$color-gray-50};
+    --input-bg-disabled: rgba(148, 142, 136, 0.4);
+    --input-placeholder: #{$color-gray-20};
+    --radio-bg-checked: #{$color-teal-30};
+    --radio-inset: #{$color-cream-10};
+
+    // Primevue tailwind colors
+    --primary-50: 236 253 245;
+    --primary-100: 209 250 229;
+    --primary-200: 167 243 208;
+    --primary-300: 110 231 183;
+    --primary-400: 52 211 153;
+    --primary-500: 16 185 129;
+    --primary-600: 5 150 105;
+    --primary-700: 4 120 87;
+    --primary-800: 6 95 70;
+    --primary-900: 4 78 56;
+    --primary-950: 2 44 34;
+    --surface-0: 255 255 255;
+    --surface-50: 248 250 252;
+    --surface-100: 241 245 249;
+    --surface-200: 226 232 240;
+    --surface-300: 203 213 225;
+    --surface-400: 148 163 184;
+    --surface-500: 100 116 139;
+    --surface-600: 71 85 105;
+    --surface-700: 45 55 72;
+    --surface-800: 30 41 59;
+    --surface-900: 15 23 42;
+    --surface-950: 3 6 23;
+}
